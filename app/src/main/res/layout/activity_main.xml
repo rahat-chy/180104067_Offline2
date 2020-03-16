@@ -20,29 +20,34 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Symptoms"
+        android:text="    Symptoms "
+        android:drawableLeft="@drawable/coug"
         android:gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:textSize="30dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Prevention"
+        android:text="   Prevention"
+        android:drawableLeft="@drawable/hnd"
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:textSize="30dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cure"
+        android:drawableLeft="@drawable/plus"
+        android:text="        Cure         "
         android:gravity="center"
+
         android:layout_marginTop="20dp"
         android:textSize="30dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About"
+        android:text="       About       "
+        android:drawableLeft="@drawable/ex"
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:textSize="30dp"/>

@@ -1,4 +1,4 @@
-#Mon Mar 16 23:21:43 ALMT 2020
+#Tue Mar 17 00:08:11 ALMT 2020
 base.0=C\:\\Users\\RDHXT\\AndroidStudioProjects\\180104067Offline2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

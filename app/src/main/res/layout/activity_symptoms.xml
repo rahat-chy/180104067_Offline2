@@ -1,75 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
 
     android:layout_height="match_parent"
     tools:context=".symptoms">
 
-   <ScrollView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
-
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-   <TextView
-       android:id="@+id/text1"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="People with COVID-19 may experience:"
-       android:textSize="30dp"/>
 
-    <TextView
-        android:layout_below="@+id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:id="@+id/text2"
-        android:text="1. Sore Throat"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:layout_below="@+id/text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:id="@+id/text3"
-        android:text="2. Cough"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People with COVID-19 may experience:"
+                android:textSize="30dp" />
 
-    <TextView
-        android:layout_below="@+id/text3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:id="@+id/text4"
-        android:text="1. Fever"/>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:text="1. Sore Throat"
+                android:textSize="30dp" />
 
-    <TextView
-        android:layout_below="@+id/text4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:id="@+id/text5"
-        android:text="1. Difficulty in Breathing"/>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:text="2. Cough"
+                android:textSize="30dp" />
 
-    <ImageView
-        android:id="@+id/img1"
-        android:layout_below="@+id/text5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/sym"/>
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text3"
+                android:text="3. Fever"
+                android:textSize="30dp" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:layout_below="@+id/img1"
-        android:text="Back"
-        android:drawableLeft="@drawable/back"/>
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text4"
+                android:text="4. Difficulty in Breathing"
+                android:textSize="30dp" />
 
-    </RelativeLayout>
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:text="5. Headache"
+                android:textSize="30dp" />
 
-   </ScrollView>
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text6"
+                android:src="@drawable/sym" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img1"
+                android:drawableLeft="@drawable/back"
+                android:text="Back"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 </RelativeLayout>

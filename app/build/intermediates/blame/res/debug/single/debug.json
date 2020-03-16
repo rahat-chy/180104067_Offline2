@@ -772,6 +772,10 @@
         "source": "C:\\Users\\RDHXT\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\RDHXT\\AndroidStudioProjects\\180104067Offline2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_prevention.xml.flat",
+        "source": "C:\\Users\\RDHXT\\AndroidStudioProjects\\180104067Offline2\\app\\src\\main\\res\\layout\\activity_prevention.xml"
+    },
+    {
         "merged": "C:\\Users\\RDHXT\\AndroidStudioProjects\\180104067Offline2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\RDHXT\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },

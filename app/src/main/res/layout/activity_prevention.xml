@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prevention">
+
+    <TableRow
+        >
+
+        <TextView
+            android:text="Activities"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:text="YES/NO"
+            android:layout_marginLeft="30dp"
+            android:textSize="30dp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Shaking Hands"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="NO"
+            android:textSize="30dp"/>
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Going to Crowd"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="NO"
+            android:textSize="30dp"/>
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Washing Hands "
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="YES"
+            android:textSize="30dp"/>
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Keep Clean"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="YES"
+            android:textSize="30dp"/>
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Touching Face"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="NO"
+            android:textSize="30dp"/>
+
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="20dp"
+            android:text="Back"
+            android:textSize="30dp"
+            android:drawableLeft="@drawable/back"/>
+
+
+    </TableRow>
+
+</TableLayout>

@@ -3,54 +3,73 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
+
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bg1"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="COVID-19"
-        android:textSize="60dp"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="    Symptoms "
-        android:drawableLeft="@drawable/coug"
-        android:gravity="center"
-        android:layout_marginTop="70dp"
-        android:textSize="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="   Prevention"
-        android:drawableLeft="@drawable/hnd"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:textSize="30dp"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/plus"
-        android:text="        Cure         "
-        android:gravity="center"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COVID-19"
+            android:textColor="@android:color/white"
+            android:textSize="70dp"
+            android:textStyle="bold" />
 
-        android:layout_marginTop="20dp"
-        android:textSize="30dp"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="       About       "
-        android:drawableLeft="@drawable/ex"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:textSize="30dp"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:drawableLeft="@drawable/coug"
+            android:gravity="center"
+            android:text="    Symptoms "
+            android:textSize="30dp" />
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/hnd"
+            android:gravity="center"
+            android:text="   Prevention"
+            android:textSize="30dp" />
 
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/plus"
+            android:gravity="center"
+
+            android:text="        Cure         "
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ex"
+            android:gravity="center"
+            android:text="       About       "
+            android:textSize="30dp"
+            android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 </LinearLayout>

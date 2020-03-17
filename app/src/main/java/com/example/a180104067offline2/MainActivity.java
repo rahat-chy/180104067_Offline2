@@ -44,5 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(MainActivity.this,cure.class);
             startActivity(intent);
         }
+        if(v.getId()==R.id.button4)
+        {
+            Intent intent = new Intent(MainActivity.this,about.class);
+            startActivity(intent);
+        }
     }
 }

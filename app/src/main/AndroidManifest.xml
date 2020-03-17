@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cure"></activity>
+        <activity android:name=".about"></activity>
+        <activity android:name=".cure" />
         <activity android:name=".prevention" />
         <activity android:name=".symptoms" />
         <activity android:name=".MainActivity">

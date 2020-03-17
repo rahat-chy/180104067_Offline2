@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(MainActivity.this,prevention.class);
             startActivity(intent);
         }
-
+        if(v.getId()==R.id.button3)
+        {
+            Intent intent = new Intent(MainActivity.this,cure.class);
+            startActivity(intent);
+        }
     }
 }

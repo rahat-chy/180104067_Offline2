@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cure">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="There is no specific vaccine or medicine for this disease but you can follow these steps to prevent it from spreading: (Tap to know)"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/text2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:text="1. Drink plenty of water (Tap for next)"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:text="2. Take paracetamol if you feel pain (Tap for next)"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:text="3. Use mask (Tap for next)"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30dp"
+        android:text="4. Stay at home (Tap for next)"
+        android:gravity="center"/>
+
+</FrameLayout>
